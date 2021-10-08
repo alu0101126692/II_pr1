@@ -18,7 +18,7 @@ public class hablar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(gameObject.name + " " + contador);
+        Debug.Log("Soy " + gameObject.name + " identificador: " + id + " contador: " + contador);
         contador++;
     }
 }
